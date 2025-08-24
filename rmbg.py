@@ -234,4 +234,8 @@ if __name__ == '__main__':
 # name: rmbg_v14-r20240908
 # provider: BRIA-AI
 # display_name: RMBG v1.4
-# model_path: https://github.com/CVHub520/X-AnyLabeling/releases/download/v2.4.3/bria-rmbg-1.4.onnx       
+# model_path: https://github.com/CVHub520/X-AnyLabeling/releases/download/v2.4.3/bria-rmbg-1.4.onnx
+
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple onnxruntime-gpu
+# cudnn https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+# 现在完成以后要把cudnn的路径放入path，否则报错which depends on "cudnn64_9.dll" which is missing
